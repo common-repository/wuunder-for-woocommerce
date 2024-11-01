@@ -1,0 +1,11 @@
+#TB_ajaxContent {
+    max-height: calc(100vh - 20px) !important;
+}
+
+#alertBox {
+    display: none;
+}
+
+[id^=wc_wuunder] {
+    max-width: 100%;
+}

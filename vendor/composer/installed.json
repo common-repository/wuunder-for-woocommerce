@@ -1,0 +1,68 @@
+{
+    "packages": [
+        {
+            "name": "wuunder/connector-php",
+            "version": "1.1.2",
+            "version_normalized": "1.1.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/wuunder/connector-php.git",
+                "reference": "3062c3f19c117b689bec14e7e8aa97655ce5a44f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/wuunder/connector-php/zipball/3062c3f19c117b689bec14e7e8aa97655ce5a44f",
+                "reference": "3062c3f19c117b689bec14e7e8aa97655ce5a44f",
+                "shasum": ""
+            },
+            "archive": {
+                "exclude": [
+                    "tests/",
+                    "build/",
+                    "/.travis.yml",
+                    "/build.xml",
+                    "phpunit.xml.dist",
+                    "libphonenumber-for-php.spec",
+                    "/.styleci.yml"
+                ]
+            },
+            "require": {
+                "php": ">=5.3.2"
+            },
+            "time": "2019-05-20T09:42:07+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Wuunder\\": "src/Wuunder"
+                }
+            },
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Wuunder",
+                    "email": "info@wearewuunder.com",
+                    "homepage": "https://wearewuunder.com/"
+                }
+            ],
+            "description": "PHP connector for Wuunder API's",
+            "homepage": "https://github.com/wuunder/connector-php",
+            "keywords": [
+                "api",
+                "connector",
+                "parcelshop",
+                "php",
+                "wuunder"
+            ],
+            "support": {
+                "source": "https://github.com/wuunder/connector-php",
+                "issues": "https://github.com/wuunder/connector-php/issues"
+            },
+            "install-path": "../wuunder/connector-php"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}
